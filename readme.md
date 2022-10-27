@@ -6,7 +6,7 @@ Este projeto foi realizado durante a Semana MapaDev, da equipe [Dev em Dobro](ht
 
 _**Veja o resultado [clicando aqui](https://beaasb.github.io/Mini-Portfolio/)**_
 
-## 🛠️Tecnologias 
+## 🚀 Tecnologias 
     - HTML
     - CSS
     - Git e GitHub
