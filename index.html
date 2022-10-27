@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./src/img/favicon.ico" sizes="40x40" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">  
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/scroll.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <script src="https://kit.fontawesome.com/cfd2072685.js" crossorigin="anonymous"></script>
+
+    <title>Mini Portfólio - Beatriz Bernardes</title>
+</head>
+<body>
+    <main class="card">
+
+        <div id="controls">
+			<audio id="audio">
+				<source src="./src/audio/New West - Those Eyes.mp3">
+			</audio>
+			<div id="play-pause-butao" class="play">
+				<span id="play-pause-top"></span>
+				<span id="play-pause-right"></span>
+				<span id="play-pause-bottom"></span>
+			</div>
+		</div>
+
+        <div class="my-informations">
+            <img src="./src/img/profile.png" alt="foto de perfil">
+            <h1 class="name">Beatriz Bernardes</h1>
+            <h2 class="office">Desenvolvedora Front-End Júnior</h2>
+        </div>
+
+        <div class="content">
+            <ul class="tabs">
+                <li class="tab selected" id="about-me">
+                    <img src="./src/img/about.gif" width="60" height="60" alt="icone de sobre mim">
+                </li>
+                <li class="tab" id="social-list">
+                    <img src="./src/img/social.gif" alt="icone de redes sociais">
+                </li>
+            </ul>
+
+            <div class="tabs-informations">
+                <div class="information selected" id="information-about-me">
+                    <h3 class="subtitle">Sobre</h3>
+
+                    <div class="description">
+                        <p>Olá! Meu nome é Beatriz de Souza Bernardes, seja bem-vindo(a/e)!</p>
+                        
+                        <p><br/>
+                            Sou uma pessoa apaixonada pela programação desde que eu comecei a questionar como toda essa tecnoligia
+                            funcionava. Sempre tive o sonho de trabalhar com programação e atualmente comecei a colocar esse sonho 
+                            em prática estudando mais a fundo <span>HTML, CSS e JavaScript</span> para num futuro próximo me consolidar 
+                            como deselvolvedora <span>Full Stack</span>.
+                            Gosto muito de energético (principalmente o Mango Loco), e meus principais hobbies são ler romances, 
+                            jogar no celular, assistir séries e filmes e ouvir música, em especial <span>acústico, pop e sertanejo</span>.
+                        </p>
+                    </div>    
+                </div>
+
+                <div class="information" id="information-social-list">
+                    <h3 class="subtitle">Minhas Redes</h3>
+                        <ul class="social list">
+                            <li>
+                                <a href="" 
+                                target="_blank" class="curriculo">Currículo</a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/beatriz-bernardes-b87a75185" 
+                                target="_blank" class="linkedin">LinkedIn</a>
+                            </li>
+
+                            <li>
+                                <a href="https://github.com/beaasb" 
+                                target="_blank" class="github">GitHub</a>
+                            </li>
+                        </ul>                        
+                </div>
+            </div>
+    </main>
+
+    <script 
+        src="./src/js/index.js" type="text/javascript" charset="utf-8" async defer>
+    </script>
+
+    <footer>
+        <p>Feito com <span> ❤️ </span> por Beatriz Bernardes</p>
+    </footer>
+
+</body>
+</html>
